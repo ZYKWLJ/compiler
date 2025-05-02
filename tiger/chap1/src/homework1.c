@@ -114,6 +114,11 @@ int countargs(A_expList expList)
         return 1;
 }
 /**********************************************************/
+
+#ifdef GATE_HOMEWORK1
+/**
+ * func descp: 计算表达式列表里面的参数
+ */
 int main()
 {
     A_stm stm = prog();
@@ -121,3 +126,5 @@ int main()
     // system("pause");
     return 0;
 }
+
+#endif

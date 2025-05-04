@@ -202,13 +202,16 @@ int getOpResult(int x, int y, int kind)
 int main()
 {
 
+    /**
+     * data descp: 我算是明白本质了，就是不断地结构化解释，最终得到最后的运算结果。
+     */
     A_stm stm = prog();
     interp(stm);
     return 0;
 }
 /**
 这里当然结果是7 80 因为两次打印就是这个结果，主要是序列运算需要注意下。即print(a, a - 1)等价于print(a - 1)
-a = 5 + 3;b = (print(a, a - 1), 10 * a);print(b);
+a = 5 + 3;b = (print(a, a - 1//7), 10 * a//80);print(b//80);
 */
 
 #endif

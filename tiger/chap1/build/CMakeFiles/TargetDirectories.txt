@@ -1,0 +1,3 @@
+/home/eyk/桌面/编译器/tiger/chap1/build/CMakeFiles/homework2.dir
+/home/eyk/桌面/编译器/tiger/chap1/build/CMakeFiles/edit_cache.dir
+/home/eyk/桌面/编译器/tiger/chap1/build/CMakeFiles/rebuild_cache.dir

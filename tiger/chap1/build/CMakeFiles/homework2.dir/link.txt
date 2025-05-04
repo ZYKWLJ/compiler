@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/homework2.dir/src/homework1.c.o CMakeFiles/homework2.dir/src/homework2.c.o CMakeFiles/homework2.dir/src/main.c.o CMakeFiles/homework2.dir/src/prog1.c.o CMakeFiles/homework2.dir/src/slp.c.o CMakeFiles/homework2.dir/src/util.c.o CMakeFiles/homework2.dir/test/test.c.o -o /home/eyk/桌面/编译器/tiger/chap1/bin/homework2  -lreadline -lrt 
